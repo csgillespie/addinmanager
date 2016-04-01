@@ -43,7 +43,7 @@ addin_manager = function() {
   # Our ui will be a simple gadget page, which
   # simply displays the time in a 'UI' output.
   ui = miniPage(
-    gadgetTitleBar("RStudio Addins"),
+    gadgetTitleBar(a(href="https://github.com/csgillespie/addinmanager", "RStudio Addins")),
     miniContentPanel(
       DT::dataTableOutput("addins")
     )
