@@ -35,7 +35,7 @@ get_addins = function() {
 #' Manages addins
 #' @importFrom DT renderDataTable dataTableOutput
 #' @import miniUI
-#' @importFrom shiny observeEvent stopApp paneViewer runGadget
+#' @importFrom shiny observeEvent stopApp paneViewer runGadget a
 #' @importFrom devtools install_github
 #' @export
 addin_manager = function() {
