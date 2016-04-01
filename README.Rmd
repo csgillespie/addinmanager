@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 # RStudio addins manager
+[![Build Status](https://travis-ci.org/csgillespie/addinmanager.png?branch=master)](https://travis-ci.org/csgillespie/addinmanager) 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/addinmanager)](https://cran.r-project.org/package=addinmanager)
 
 RStudio addins let you execute a bit of R code or a Shiny app through the RStudio IDE,
