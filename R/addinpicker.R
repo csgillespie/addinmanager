@@ -1,23 +1,34 @@
-get_addins = function() {
-  ## Locate file of raddins
-  path = system.file("extdata/raddins.csv", package = "addinmanager")
-  dd = read.csv(path, stringsAsFactors = FALSE)
-
+clean_addins = function(addins) {
   ## Determine which packages are in CRAN.
   ## Assume others are in github
-  dd$is_cran = !grepl("/", dd[,3])
+  addins$is_cran = !grepl("/", addins[,3])
 
   ## For github packages, get package name
-  names = unlist(strsplit(dd$Package[!dd$is_cran], "/"))
+  names = unlist(strsplit(addins$Package[!addins$is_cran], "/"))
   ## Remove github user names
   names = names[seq(2, length(names), by=2)]
-  #urls = ifelse(dd$is_cran, "https://cran.r-project.org/package=", "https://github.com")
+  #urls = ifelse(addins$is_cran, "https://cran.r-project.org/package=", "https://github.com")
 
   ## Nice Package name
-  dd$full_name = dd$Package
-  dd$Package[!dd$is_cran] = names
-  dd
+  addins$full_name = addins$Package
+  addins$Package[!addins$is_cran] = names
+  addins
 }
+
+get_addins = function() {
+  ## Download raddins.csv from web if possible
+  url = "https://raw.githubusercontent.com/csgillespie/addinmanager/master/inst/extdata/raddins.csv"
+  addins = suppressWarnings(try(read.csv(url, stringsAsFactors = FALSE), silent=TRUE))
+  if(class(addins) == "try-error" || nrow(addins) == 0) {
+    message("Can't access online version of addins. Using local copy as fallback.")
+  } else {
+    ## Locate file of raddins
+    path = system.file("extdata/raddins.csv", package = "addinmanager")
+    addins = read.csv(path, stringsAsFactors = FALSE)
+  }
+  clean_addins(addins)
+}
+
 
 #' Addin manager
 #'
