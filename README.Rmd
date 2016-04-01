@@ -27,10 +27,16 @@ latest version of [RStudio](https://www.rstudio.com/).
 
 The package can be installed via `devtools`
 
-```
+```{r eval=FALSE}
 ## Need the latest version of DT as well
 devtools::install_github('rstudio/DT')
 devtools::install_github("csgillespie/addinmanager")
+```
+
+You can test the package at the command line with
+
+```{r eval=FALSE}
+addinmanager::addin_manager()
 ```
 
 ## Running addins

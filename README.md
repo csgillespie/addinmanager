@@ -11,9 +11,17 @@ Installation
 
 The package can be installed via `devtools`
 
-    ## Need the latest version of DT as well
-    devtools::install_github('rstudio/DT')
-    devtools::install_github("csgillespie/addinmanager")
+``` r
+## Need the latest version of DT as well
+devtools::install_github('rstudio/DT')
+devtools::install_github("csgillespie/addinmanager")
+```
+
+You can test the package at the command line with
+
+``` r
+addinmanager::addin_manager()
+```
 
 Running addins
 --------------
