@@ -1,0 +1,5 @@
+Name: Addin manager
+Description: Addin to maintain other addins
+Binding: addin_manager
+Interactive: true
+

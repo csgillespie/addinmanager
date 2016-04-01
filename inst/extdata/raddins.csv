@@ -1,0 +1,13 @@
+Name,Description,Package
+Colour picker,Lets you easily select colours,shinyjs
+ggplot2 Marginal Plots,Add marginal plots to ggplot2,ggExtra
+ggplot Theme Assist,Customize your ggplot theme,ggThemeAssist
+Schedule Rscripts,Easily scheduling Rscripts,jwijffels/taskscheduleR
+Assign default values,Set function arguments in selection to their default values,jennybc/jadd
+Wrap Rmd,Wrap selected R Markdown text but don't insert lines breaks into inline R code,tjmahr/WrapRmd
+Tidy Data,Interactively build tidyr function call (gather),MangoTheCat/tidyshiny
+Lattice Plotting,Interactively build plots using the `lattice` system,homerhanumat/addinplots
+Copy Frame to Clipboard,Copy a `data.frame` to the clipboard,BAAQMD/copydat
+Render Rmd in Console,Render an R Markdown document in the global environment,jeffjjohnston/RStudioConsoleRender
+Document This,Auto-generate Roxygen skeletons for functions and data,mdlincoln/docthis
+Hist Add-In,Interactively create histograms with ggplot2 and obtain the R Code,Stan125/limoaddin
