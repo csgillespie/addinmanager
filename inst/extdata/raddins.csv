@@ -11,3 +11,4 @@ Copy Frame to Clipboard,Copy a `data.frame` to the clipboard,BAAQMD/copydat
 Render Rmd in Console,Render an R Markdown document in the global environment,jeffjjohnston/RStudioConsoleRender
 Document This,Auto-generate Roxygen skeletons for functions and data,mdlincoln/docthis
 Hist Add-In,Interactively create histograms with ggplot2 and obtain the R Code,Stan125/limoaddin
+Data recoding,Interactively generate R code for variable manipulation (levels editing / levels ordering / cutting),questionr 
