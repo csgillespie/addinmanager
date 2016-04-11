@@ -42,7 +42,7 @@ Simple!
 Including your addin
 --------------------
 
-Just fork and alter the [addin file](https://github.com/csgillespie/addinmanager/tree/master/inst/extdata) which is located in the `inst/extdata` directory. This file is a csv file with three columns:
+Just fork and alter [raddins.md](https://github.com/csgillespie/addinmanager/tree/master/inst/extdata/raddins.md) which is located in the `inst/extdata` directory. This file is a md file with three columns:
 
 -   addin Name/title
 -   Brief Description
@@ -53,20 +53,22 @@ The initial list of addins was obtain from [daattali](https://github.com/daattal
 Current List of Addins
 ----------------------
 
-| Name                    | Description                                                                    | Package                            |
-|:------------------------|:-------------------------------------------------------------------------------|:-----------------------------------|
-| Colour picker           | Lets you easily select colours                                                 | shinyjs                            |
-| ggplot2 Marginal Plots  | Add marginal plots to ggplot2                                                  | ggExtra                            |
-| ggplot Theme Assist     | Customize your ggplot theme                                                    | ggThemeAssist                      |
-| Schedule Rscripts       | Easily scheduling Rscripts                                                     | jwijffels/taskscheduleR            |
-| Assign default values   | Set function arguments in selection to their default values                    | jennybc/jadd                       |
-| Wrap Rmd                | Wrap selected R Markdown text but don't insert lines breaks into inline R code | tjmahr/WrapRmd                     |
-| Tidy Data               | Interactively build tidyr function call (gather)                               | MangoTheCat/tidyshiny              |
-| Lattice Plotting        | Interactively build plots using the `lattice` system                           | homerhanumat/addinplots            |
-| Copy Frame to Clipboard | Copy a `data.frame` to the clipboard                                           | BAAQMD/copydat                     |
-| Render Rmd in Console   | Render an R Markdown document in the global environment                        | jeffjjohnston/RStudioConsoleRender |
-| Document This           | Auto-generate Roxygen skeletons for functions and data                         | mdlincoln/docthis                  |
-| Hist Add-In             | Interactively create histograms with ggplot2 and obtain the R Code             | Stan125/limoaddin                  |
+|     | Name                    | Description                                                                                          | Package                            |
+|-----|:------------------------|:-----------------------------------------------------------------------------------------------------|:-----------------------------------|
+| 2   | ggplot2 Marginal Plots  | Add marginal plots to ggplot2                                                                        | ggExtra                            |
+| 3   | ggplot Theme Assist     | Customize your ggplot theme                                                                          | ggThemeAssist                      |
+| 4   | Data Recoding           | Interactively generate R code for variable manipulation (levels editing / levels ordering / cutting) | questionr                          |
+| 5   | Colour Picker           | Lets you easily select colours                                                                       | shinyjs                            |
+| 6   | Schedule Rscripts       | Easily scheduling Rscripts                                                                           | jwijffels/taskscheduleR            |
+| 7   | Assign Default Values   | Set function arguments in selection to their default values                                          | jennybc/jadd                       |
+| 8   | Wrap Rmd                | Wrap selected R Markdown text but don't insert lines breaks into inline R code                       | tjmahr/WrapRmd                     |
+| 9   | Tidy Data               | Interactively build tidyr function call (gather)                                                     | MangoTheCat/tidyshiny              |
+| 10  | Lattice Plotting        | Interactively build plots using the `lattice` system                                                 | homerhanumat/addinplots            |
+| 11  | Copy Frame to Clipboard | Copy a `data.frame` to the clipboard                                                                 | BAAQMD/copydat                     |
+| 12  | Render Rmd in Console   | Render an R Markdown document in the global environment                                              | jeffjjohnston/RStudioConsoleRender |
+| 13  | Document This           | Auto-generate Roxygen skeletons for functions and data                                               | mdlincoln/docthis                  |
+| 14  | Hist Add-In             | Interactively create histograms with ggplot2 and obtain the R Code                                   | Stan125/limoaddin                  |
+| 15  | Graphical Unit Testing  | Visual regression testing and graphical diffing with testthat                                        | lionel-/vdiffr                     |
 
 Other information
 -----------------

@@ -59,7 +59,7 @@ Simple!
 
 ## Including your addin
 
-Just fork and alter the [addin file](https://github.com/csgillespie/addinmanager/tree/master/inst/extdata) which is located in the `inst/extdata` directory. This file is a csv file with three columns:
+Just fork and alter [raddins.md](https://github.com/csgillespie/addinmanager/tree/master/inst/extdata/raddins.md) which is located in the `inst/extdata` directory. This file is a md file with three columns:
 
  * addin Name/title
  * Brief Description
@@ -71,7 +71,8 @@ repo.
 ## Current List of Addins
 
 ```{r echo=FALSE}
-dd = read.csv("inst/extdata/raddins.csv")
+dd = read.csv("inst/extdata/raddins.md", sep="|", header=TRUE, skip=14)[-1,]
+write.csv(dd, file="inst/extdata/raddins.csv", row.names=FALSE)
 knitr::kable(dd)
 ```
 

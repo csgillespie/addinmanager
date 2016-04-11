@@ -6,11 +6,11 @@ To include your addin, just add it to the table below. General points:
  * Don't go overboard on the Description
  * If the package is on CRAN, just add the package name. Otherwise use repo/pkgName.
  * The `raddins.csv` is from an old version, and will eventually be deleted. At present
- I'll just generate the `raddins.csv` from `raddins.md`.
+ I just generate the `raddins.csv` from `raddins.md`.
 
 
 
-<!--The table must start on line 15. read.csv depends on skipping the first 10 rows-->
+<!--The table must start on line 15. read.csv depends on skipping the first 14 rows-->
 
 Name|Description|Package
 ----------------|---------------------------|-------
@@ -27,3 +27,4 @@ Copy Frame to Clipboard|Copy a `data.frame` to the clipboard|BAAQMD/copydat
 Render Rmd in Console|Render an R Markdown document in the global environment|jeffjjohnston/RStudioConsoleRender
 Document This|Auto-generate Roxygen skeletons for functions and data|mdlincoln/docthis
 Hist Add-In|Interactively create histograms with ggplot2 and obtain the R Code|Stan125/limoaddin
+Graphical Unit Testing| Visual regression testing and graphical diffing with testthat |lionel-/vdiffr
