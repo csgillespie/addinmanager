@@ -15,16 +15,21 @@ clean_addins = function(addins) {
   addins
 }
 
+read_addins = function(path) {
+  read.csv(path, sep="|", header=TRUE, skip=14, stringsAsFactors = FALSE)[-1,]
+}
+
+
 get_addins = function() {
   ## Download raddins.csv from web if possible
-  url = "https://raw.githubusercontent.com/csgillespie/addinmanager/master/inst/extdata/raddins.csv"
-  addins = suppressWarnings(try(read.csv(url, stringsAsFactors = FALSE), silent=TRUE))
+  url = "https://raw.githubusercontent.com/csgillespie/addinmanager/master/inst/extdata/raddins.md"
+  addins = suppressWarnings(try(read_addins(url), silent=TRUE))
+
   if(class(addins) == "try-error" || nrow(addins) == 0) {
     message("Can't access online version of addins. Using local copy as fallback.")
-  } else {
     ## Locate file of raddins
-    path = system.file("extdata/raddins.csv", package = "addinmanager")
-    addins = read.csv(path, stringsAsFactors = FALSE)
+    path = system.file("extdata/raddins.md", package = "addinmanager")
+    addins = read_addins(path)
   }
   clean_addins(addins)
 }
