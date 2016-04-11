@@ -37,7 +37,8 @@ get_addins = function() {
 
 #' Addin manager
 #'
-#' Manages addins
+#' An RStudio addin for managing addins! When the addin is lauched, you can select
+#' which addins to install or remove.
 #' @importFrom DT renderDataTable dataTableOutput
 #' @import miniUI
 #' @importFrom shiny observeEvent stopApp paneViewer runGadget a
@@ -68,7 +69,8 @@ addin_manager = function() {
     all_packages = as.character(1:nrow(addins))
 
     output$addins = DT::renderDataTable(addins[,1:3], server = FALSE,
-                                        selection = list(mode = 'multiple', selected = highlight))
+                                        selection = list(mode = 'multiple', selected = highlight),
+                                        rownames=FALSE)
 
     observeEvent(input$done, {
       ## Packages to install
@@ -94,12 +96,6 @@ addin_manager = function() {
 
 
   }
-
-  # We'll use a pane viwer, and set the minimum height at
-  # 300px
   viewer = paneViewer(300)
   runGadget(ui, server, viewer = viewer)
-
 }
-
-# # 'inst/rstudio/addins.dcf', and you're ready to go!"2016-03-31 23:19:58"

@@ -7,6 +7,7 @@
 addin_manager()
 }
 \description{
-Manages addins
+An RStudio addin for managing addins! When the addin is lauched, you can select
+which addins to install or remove.
 }
 
