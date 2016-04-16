@@ -59,7 +59,7 @@ Current List of Addins
 | 3   | ggplot Theme Assist     | Customize your ggplot theme                                                                          | ggThemeAssist                      |
 | 4   | Data Recoding           | Interactively generate R code for variable manipulation (levels editing / levels ordering / cutting) | questionr                          |
 | 5   | Colour Picker           | Lets you easily select colours                                                                       | shinyjs                            |
-| 6   | Roxygen2 comments       | Add/remove roxygen2 comments                                                                         | csgillespie/roxygen2               |
+| 6   | Roxygen2 comments       | Add/remove roxygen2 comments                                                                         | csgillespie/roxygen2Comment        |
 | 7   | Schedule Rscripts       | Easily scheduling Rscripts                                                                           | jwijffels/taskscheduleR            |
 | 8   | Assign Default Values   | Set function arguments in selection to their default values                                          | jennybc/jadd                       |
 | 9   | Wrap Rmd                | Wrap selected R Markdown text but don't insert lines breaks into inline R code                       | tjmahr/WrapRmd                     |
