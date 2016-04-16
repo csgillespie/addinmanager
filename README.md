@@ -59,16 +59,17 @@ Current List of Addins
 | 3   | ggplot Theme Assist     | Customize your ggplot theme                                                                          | ggThemeAssist                      |
 | 4   | Data Recoding           | Interactively generate R code for variable manipulation (levels editing / levels ordering / cutting) | questionr                          |
 | 5   | Colour Picker           | Lets you easily select colours                                                                       | shinyjs                            |
-| 6   | Schedule Rscripts       | Easily scheduling Rscripts                                                                           | jwijffels/taskscheduleR            |
-| 7   | Assign Default Values   | Set function arguments in selection to their default values                                          | jennybc/jadd                       |
-| 8   | Wrap Rmd                | Wrap selected R Markdown text but don't insert lines breaks into inline R code                       | tjmahr/WrapRmd                     |
-| 9   | Tidy Data               | Interactively build tidyr function call (gather)                                                     | MangoTheCat/tidyshiny              |
-| 10  | Lattice Plotting        | Interactively build plots using the `lattice` system                                                 | homerhanumat/addinplots            |
-| 11  | Copy Frame to Clipboard | Copy a `data.frame` to the clipboard                                                                 | BAAQMD/copydat                     |
-| 12  | Render Rmd in Console   | Render an R Markdown document in the global environment                                              | jeffjjohnston/RStudioConsoleRender |
-| 13  | Document This           | Auto-generate Roxygen skeletons for functions and data                                               | mdlincoln/docthis                  |
-| 14  | Hist Add-In             | Interactively create histograms with ggplot2 and obtain the R Code                                   | Stan125/limoaddin                  |
-| 15  | Graphical Unit Testing  | Visual regression testing and graphical diffing with testthat                                        | lionel-/vdiffr                     |
+| 6   | Roxygen2 comments       | Add/remove roxygen2 comments                                                                         | csgillespie/roxygen2               |
+| 7   | Schedule Rscripts       | Easily scheduling Rscripts                                                                           | jwijffels/taskscheduleR            |
+| 8   | Assign Default Values   | Set function arguments in selection to their default values                                          | jennybc/jadd                       |
+| 9   | Wrap Rmd                | Wrap selected R Markdown text but don't insert lines breaks into inline R code                       | tjmahr/WrapRmd                     |
+| 10  | Tidy Data               | Interactively build tidyr function call (gather)                                                     | MangoTheCat/tidyshiny              |
+| 11  | Lattice Plotting        | Interactively build plots using the `lattice` system                                                 | homerhanumat/addinplots            |
+| 12  | Copy Frame to Clipboard | Copy a `data.frame` to the clipboard                                                                 | BAAQMD/copydat                     |
+| 13  | Render Rmd in Console   | Render an R Markdown document in the global environment                                              | jeffjjohnston/RStudioConsoleRender |
+| 14  | Document This           | Auto-generate Roxygen skeletons for functions and data                                               | mdlincoln/docthis                  |
+| 15  | Hist Add-In             | Interactively create histograms with ggplot2 and obtain the R Code                                   | Stan125/limoaddin                  |
+| 16  | Graphical Unit Testing  | Visual regression testing and graphical diffing with testthat                                        | lionel-/vdiffr                     |
 
 Other information
 -----------------
