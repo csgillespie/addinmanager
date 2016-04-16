@@ -3,7 +3,7 @@
 "ggplot Theme Assist","Customize your ggplot theme","ggThemeAssist"
 "Data Recoding","Interactively generate R code for variable manipulation (levels editing / levels ordering / cutting)","questionr"
 "Colour Picker","Lets you easily select colours","shinyjs"
-"Roxygen2 comments"," Add/remove roxygen2 comments "," csgillespie/roxygen2Comment"
+"Roxygen2 comments"," Add/remove roxygen2 comments ","csgillespie/roxygen2Comment"
 "Schedule Rscripts","Easily scheduling Rscripts","jwijffels/taskscheduleR"
 "Assign Default Values","Set function arguments in selection to their default values","jennybc/jadd"
 "Wrap Rmd","Wrap selected R Markdown text but don't insert lines breaks into inline R code","tjmahr/WrapRmd"
